@@ -25,6 +25,17 @@ img{
     color: currentColor;
  }
 
+ /*layout*/
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+ .col-33{
+    width: calc(100% / 3);
+ }
+
  /*page header*/
 .logo{
     display: block;
@@ -40,7 +51,7 @@ img{
     padding: 5px;
     background-color: rgb(255, 184, 52);
     border-bottom-style:inset;
-    border-bottom-color: rgb(198, 198, 198)
+    border-bottom-color: rgb(198, 198, 198);
 
  }
  .emoji, .menu{
@@ -49,5 +60,34 @@ img{
     gap: 10px;
     color: white;
 
+    /*section*/
+
  }
+
+ h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+ }
+
+ p{
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+ }
+
+ .col-33{
+    padding-bottom: 20px;
+    gap: 20px;
+ }
+
+ .model{
+    width: 280px;
+    display: block;
+   
+}
+
+.products .row{
+    align-items: center;
+}
 
