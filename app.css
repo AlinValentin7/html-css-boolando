@@ -77,7 +77,7 @@ img{
  }
 
  .col-33{
-    padding-bottom: 20px;
+    padding: 20px;
     gap: 20px;
  }
 
@@ -90,4 +90,47 @@ img{
 .products .row{
     align-items: center;
 }
+.price{
+   flex-wrap: wrap;
+   display: flex;
+   gap: 20px;
+   border: groove;
+   border-color: rgb(255, 255, 255);
+   flex-direction: column;
+   gap: 0;
+ align-items: flex-start;
+}
 
+.brand{
+   font-size: 10px;
+   
+}
+.clothes{
+   font-size: 13px;
+   font-weight: bold;
+
+}
+.saldi{
+   color: red;
+   font-size: 11px;
+
+}
+
+.real-price{
+   color: black;
+   text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    padding: 20px;
+    background-color: black;
+    color: orange;
+}
